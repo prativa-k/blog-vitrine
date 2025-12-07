@@ -1,0 +1,434 @@
+/* mobile */
+@media only screen and (min-width: 375px) and (max-width: 767px){
+    header{
+        /* width: 100%; */
+        background-color: #014066;
+        height: 15vh;
+        align-items: center;
+        text-align: center;
+        padding: 0.3rem;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        width: 12rem;
+        padding: 1rem;
+        margin: 0.4rem;
+    
+    }
+    .logo img {
+        width: 100%;
+    }
+    .lines {
+        width: 2.5rem;
+        display: inline-flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    .line {
+        height: 0.3rem;
+        margin: 0.2rem;
+        background-color: white;
+    }
+    .banner {
+        position: relative;
+        width: 100%;
+    }
+    .banner img {
+       width: 100%;
+       object-fit:cover;  
+    }
+    .search_section {
+        background-color: #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+        justify-content: center;
+    }
+    .search {
+        width: 50%;
+        height: 5vh;   
+        text-align: center;
+        border: 1px solid grey;
+    
+    }
+    .btn {
+        width: 18%;
+        background-color: green;
+        height: 5vh;
+        padding: 1rem 0;
+        color: white;
+        border:1px solid green;
+        text-align: center;
+    }
+   
+    .brands {
+        background-color: white; 
+        width: 100%;  
+    }
+    
+    .brands-ad img {
+        width: 100%;
+        align-items: center;
+        margin-left: 0.5rem;
+        margin-top: 2rem;
+        object-fit: cover;
+        border-bottom: 1px solid black;
+    }
+    .brands-ad h1{
+        color: #014066;
+        font-size: 1.3rem;
+        display: block;
+        margin: 1.5rem;
+        text-align: center;
+    }
+    .contents {
+        width: 100%;
+        margin:  9rem auto;
+    }
+
+    
+    .start h1{
+        color: #014066;
+        font-size: 1.3rem;
+        display: block;
+        margin: 2.5rem 0;
+        text-align: center;
+    }
+    .offers {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .our-offers {
+        width: 25%;
+        position: relative;
+    }
+    .our-offers img{
+        width:100% ;
+    }
+    .title {
+        color: #014066;
+        font-size: 3.5;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 600;
+        margin: 4rem O;
+        padding: 1rem;
+    }
+    .description {
+        color: #014066;
+        width: 100%;
+        text-align: center;
+     
+    }
+    .more {
+        background-color: rgb(45, 205, 45);
+        padding: 0.5rem;
+        border: 1px solid rgb(45, 205, 45);
+        color: #014066;
+        font-weight: bold;
+        border-radius: 5%;
+        margin: 2rem 0;
+        position: absolute;
+        bottom: -5rem;
+    }
+    .coaching {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+/* Ipad */
+@media only screen and (min-width:768px) and (max-width:1112px) {
+
+    header{
+        /* width: 100%; */
+        background-color: #014066;
+        height: 15vh;
+        align-items: center;
+        text-align: center;
+        padding: 0.3rem;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        width: 15rem;
+        padding: 1rem;
+        margin: 0.4rem;
+    
+    }
+    .logo img {
+        width: 100%;
+    }
+    .lines {
+        width: 2.5rem;
+        display: inline-flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    .line {
+        height: 0.3rem;
+        margin: 0.2rem;
+        background-color: white;
+    }
+    .banner {
+        position: relative;
+        width: 100%;
+    }
+    .banner img {
+       width: 100%;
+       object-fit:cover;  
+    }
+    .search_section {
+        background-color: #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+        justify-content: center;
+    }
+    .search {
+        width: 50%;
+        height: 5vh;   
+        text-align: center;
+        border: 1px solid grey;
+    
+    }
+    .btn {
+        width: 18%;
+        background-color: green;
+        height: 5vh;
+        padding: 1rem 0;
+        color: white;
+        border:1px solid green;
+        text-align: center;
+    }
+   
+    .brands {
+        background-color: white; 
+        width: 100%;  
+    }
+    
+    .brands-ad img {
+        width: 100%;
+        align-items: center;
+        margin-left: 0.5rem;
+        margin-top: 2rem;
+        object-fit: cover;
+        border-bottom: 1px solid black;
+    }
+    .brands-ad h1{
+        color: #014066;
+        font-size: 2.5em;
+        display: block;
+        margin: 1.5rem;
+        text-align: center;
+    }
+    .contents {
+        width: 100%;
+        margin:  9rem auto;
+    }
+
+    
+    .start h1{
+        color: #014066;
+        font-size: 2.5rem;
+        display: block;
+        margin: 2.5rem 0;
+        text-align: center;
+    }
+    .offers {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .our-offers {
+        width: 25%;
+        position: relative;
+    }
+    .our-offers img{
+        width:100% ;
+    }
+    .title {
+        color: #014066;
+        font-size: 3.5;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 600;
+        margin: 4rem O;
+        padding: 1rem;
+    }
+    .description {
+        color: #014066;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+     
+    }
+    .more {
+        background-color: rgb(45, 205, 45);
+        padding: 0.5rem;
+        border: 1px solid rgb(45, 205, 45);
+        color: #014066;
+        font-weight: bold;
+        border-radius: 5%;
+        margin: 2rem 0;
+        position: absolute;
+        bottom: -6rem;
+        left: 3rem;
+    }
+    .coaching {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+/* desktop */
+@media only screen and (min-width:1113px)  {
+    header{
+        background-color: #014066;
+        height: 15vh;
+        align-items: center;
+        text-align: center;
+        padding: 0.3rem;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        width: 14rem;
+        padding: 1rem;
+        margin: 0.4rem;
+    
+    }
+    .logo img {
+        width: 100%;
+    }
+    .lines {
+        width: 2.5rem;
+        display: inline-flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    .line {
+        height: 0.3rem;
+        margin: 0.2rem;
+        background-color: white;
+    }
+    .banner {
+        position: relative;
+        width: 100%;
+    }
+    .banner img {
+       width: 100%;
+       object-fit:cover;  
+    }
+    .search_section {
+        background-color: #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+        justify-content: center;
+    }
+    .search {
+        width: 50%;
+        height: 5vh;   
+        text-align: center;
+        border: 1px solid grey;
+    
+    }
+    .btn {
+        width: 5%;
+        background-color: green;
+        height: 5vh;
+        padding: 1rem;
+        color: white;
+        border:1px solid green;
+        text-align: center;
+    }
+    .brands {
+        background-color: white;   
+    }
+    
+    .brands-ad img {
+        align-items: center;
+        margin-left: 10rem;
+        margin-top: 2rem;
+        border-bottom: 1px solid black;
+    }
+    .brands-ad h1{
+        color: #014066;
+        font-size: 2.5rem;
+        display: block;
+        margin: 1.5rem;
+        text-align: center;
+    }
+    .contents {
+        width: 100%;
+        margin: 9rem auto;
+    }
+    .start h1{
+        color: #014066;
+        font-size: 2.5rem;
+        display: block;
+        margin: 2.5rem 0;
+        text-align: center;
+    }
+    .offers {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        margin: 0 5rem;
+    }
+    .our-offers {
+        width: 25%;
+        position: relative;
+    }
+    .our-offers img{
+        width:100% ;
+    }
+    .title {
+        color: #014066;
+        font-size: 3.5;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 600;
+        margin: 4rem O;
+        padding: 1rem;
+    }
+    .description {
+        color: #014066;
+        width: 100%;
+        text-align: center;
+    }
+    .more {
+        background-color: rgb(45, 205, 45);
+        padding: 0.5rem;
+        border: 1px solid rgb(45, 205, 45);
+        color: #014066;
+        font-weight: bold;
+        border-radius: 5%;
+        margin: 2rem 0;
+        position: absolute;
+        bottom: -5rem;
+        left: 4rem;
+      
+    }
+    .coaching {
+        display: flex;
+        justify-content: space-between;
+    }
+}
