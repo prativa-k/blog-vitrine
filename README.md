@@ -1,10 +1,10 @@
-# Blog Vitrine
+# Blog Vitrine (Clone)
 
-Blog-vitrine is a responsive blog-style website built as part of my course.
+Blog Vitrine is a responsive HTML/CSS website clone built as part of my course.
 
-## Project Overview
-The task was to recreate a blog-style website using only HTML and CSS, with a focus
-on responsive design.
+## Mission
+Build a responsive website clone using HTML and CSS, emphasizing layout,
+typography, and mobile responsiveness.
 
 ## Technologies Used
 - HTML
@@ -14,7 +14,7 @@ on responsive design.
 - Responsive layouts
 - Typography and spacing
 - Semantic HTML
-- Mobile-first design principles
+- Mobile-first design
 
 ## Status
 Completed as a learning project.
